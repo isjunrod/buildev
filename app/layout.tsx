@@ -1,10 +1,7 @@
 import React from "react"
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Buildev',
@@ -25,6 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
         <style>{`
           :root {
             --background: #0f0f0f;
@@ -38,7 +38,7 @@ export default function RootLayout({
           }
         `}</style>
       </head>
-      <body className={`${inter.className} antialiased bg-[#0f0f0f] text-white`}>
+      <body className="antialiased bg-[#0f0f0f] text-white" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' }}>
         {children}
         <Analytics />
       </body>
