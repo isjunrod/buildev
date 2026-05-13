@@ -1,0 +1,12 @@
+{
+  "name": "@buildev/vision",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@buildev/scene-graph": "workspace:*",
+    "@buildev/shared": "workspace:*",
+    "jimp": "^1.6.0"
+  }
+}
