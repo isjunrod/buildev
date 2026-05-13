@@ -1,0 +1,32 @@
+{
+  "name": "@buildev/web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@buildev/ai": "workspace:*",
+    "@buildev/editor-core": "workspace:*",
+    "@buildev/exporters": "workspace:*",
+    "@buildev/scene-graph": "workspace:*",
+    "@buildev/shared": "workspace:*",
+    "@buildev/ui": "workspace:*",
+    "@buildev/vision": "workspace:*",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.1",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.9",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.9"
+  }
+}
