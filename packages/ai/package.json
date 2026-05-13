@@ -1,0 +1,13 @@
+{
+  "name": "@buildev/ai",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@buildev/editor-core": "workspace:*",
+    "@buildev/scene-graph": "workspace:*",
+    "@buildev/shared": "workspace:*",
+    "zod": "^3.24.2"
+  }
+}
