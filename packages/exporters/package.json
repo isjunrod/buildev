@@ -1,0 +1,11 @@
+{
+  "name": "@buildev/exporters",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@buildev/scene-graph": "workspace:*",
+    "@buildev/shared": "workspace:*"
+  }
+}
