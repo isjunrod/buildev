@@ -1,0 +1,11 @@
+{
+  "name": "@buildev/scene-graph",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@buildev/shared": "workspace:*",
+    "zod": "^3.24.2"
+  }
+}
